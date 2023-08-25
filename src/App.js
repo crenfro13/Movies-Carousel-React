@@ -7,7 +7,6 @@ import Home from './components/home/Home'
 import Header from './components/header/Header';
 import Trailer from './components/trailer/Trailer';
 import Reviews from './components/reviews/Reviews';
-import { wait } from '@testing-library/user-event/dist/utils/misc/wait';
 
 function App() {
   const [movies, setMovies] = useState();
